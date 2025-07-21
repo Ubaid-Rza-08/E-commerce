@@ -1,4 +1,8 @@
 package com.ubaid.customer_service.handler;
 
-public record ErrorResponse() {
+import java.util.Map;
+
+public record ErrorResponse(
+        Map<String,String> errors
+) {
 }

@@ -1,4 +1,7 @@
 package com.ubaid.customer_service.dto;
 
-public record LoginRequest() {
+public record LoginRequest(
+        String email,
+        String password
+) {
 }

@@ -36,8 +36,8 @@ public class JwtService {
     public String generateRefreshToken(String username){
         return Jwts.builder()
                 .subject(username)
-                .issuer("naresh-kushwaha")
-                .audience().add("jaggery-frontend")
+                .issuer("ubaid-rza")
+                .audience().add("E-Com-frontend")
                 .and()
                 .id(UUID.randomUUID().toString())
                 .issuedAt(new Date(System.currentTimeMillis()))
