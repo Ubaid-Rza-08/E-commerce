@@ -1,5 +1,6 @@
 package com.ubaid.customer_service.controller;
 
+import com.ubaid.customer_service.dto.AddressDTO;
 import com.ubaid.customer_service.dto.CustomerRequest;
 import com.ubaid.customer_service.dto.CustomerResponse;
 import com.ubaid.customer_service.service.CustomerService;
